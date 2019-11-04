@@ -1,0 +1,42 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  section {
+    grid-column: 1 / -1;
+  }
+  aside {
+    grid-column: 1 / -1;
+  }
+}
+
+header {
+  grid-column: 1 / -1;
+  background-color: #000080;
+}
+
+img#sea {
+  width: 100%;
+  max-width: 1000px;
+}
+section {
+  background-color: #800000;
+}
+
+aside {
+  background-color: #0000FF;
+}
+
+img#html {
+  width: 100%;
+  max-width: 400px;
+}
+
+footer {
+  grid-column: 1 / -1;
+  text-align: center;
+  background-color: #C0C0C0;
+}
